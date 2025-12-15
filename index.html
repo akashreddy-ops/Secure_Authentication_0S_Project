@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure OS Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "p2z-DfJcFbts9tQej",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="background-container">
+        <!-- Login Screen -->
+        <div id="login-screen" class="glass-panel fade-in">
+            <div class="user-avatar">👤</div>
+            <h2>System Login</h2>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Username" autocomplete="off">
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password" maxlength="30">
+            </div>
+            <button id="login-btn" onclick="handleLogin()">Login</button>
+            <p class="switch-link" onclick="showRegister()">First time setup?</p>
+            <div id="login-message" class="message"></div>
+        </div>
+
+        <!-- Register Screen -->
+        <div id="register-screen" class="glass-panel hidden">
+            <div class="user-avatar" style="background: #4caf50;">➕</div>
+            <h2>New User Setup</h2>
+            <div class="input-group">
+                <input type="text" id="reg-username" placeholder="Choose Username" autocomplete="off">
+            </div>
+            <div class="input-group">
+                <input type="password" id="reg-password" placeholder="Choose Password (Max 30)" maxlength="30">
+            </div>
+            <button id="register-btn" onclick="handleRegister()">Create Account</button>
+            <p class="switch-link" onclick="showLogin()">Back to Login</p>
+            <div id="register-message" class="message"></div>
+        </div>
+
+        <!-- OTP Screen -->
+        <div id="otp-screen" class="glass-panel hidden">
+            <div class="lock-icon">🔒</div>
+            <h2>Security Verification</h2>
+            <p>Enter the 6-digit code sent to your device</p>
+            <div class="otp-inputs">
+                <input type="text" id="otp-input" placeholder="000000" maxlength="6"
+                    style="letter-spacing: 5px; text-align: center;">
+            </div>
+            <button id="verify-btn" onclick="handleOTP()">Verify Access</button>
+            <p class="resend-link" onclick="generateOTP()">Resend Code</p>
+            <div id="otp-message" class="message"></div>
+        </div>
+
+        <!-- Desktop Screen -->
+        <div id="desktop-screen" class="hidden">
+            <div class="taskbar">
+                <div class="start-menu">⊱</div>
+                <div class="taskbar-icons">
+                    <span>📁</span>
+                    <span>🌐</span>
+                </div>
+                <div class="clock" id="clock">12:00 PM</div>
+            </div>
+
+            <div class="desktop-icons">
+                <div class="icon">
+                    <div class="icon-img">💻</div>
+                    <span>My Computer</span>
+                </div>
+                <div class="icon">
+                    <div class="icon-img">🗑️</div>
+                    <span>Recycle Bin</span>
+                </div>
+                <div class="icon">
+                    <div class="icon-img">⚙️</div>
+                    <span>Settings</span>
+                </div>
+                <div class="icon">
+                    <div class="icon-img">_</div>
+                    <span>Terminal</span>
+                </div>
+            </div>
+
+            <div class="window-popup glass-panel">
+                <div class="window-header">
+                    <span>System Security</span>
+                    <span class="close-btn" onclick="this.parentElement.parentElement.style.display='none'">×</span>
+                </div>
+                <div class="window-content">
+                    <h3>Login Successful</h3>
+                    <p>Authentication Secured via SHA-256 & MFA.</p>
+                </div>
+            </div>
+
+            <button class="logout-btn" onclick="location.reload()">Logout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
