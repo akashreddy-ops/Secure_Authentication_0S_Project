@@ -1,1 +1,39 @@
-# Secure_Authentication_0S_Project
+# 🔐 Secure OS Login Simulation Website
+
+This project is a web-based Secure Operating System Login Simulation.
+It includes:
+- User Registration
+- User Login
+- OTP Verification (Multi-Factor Authentication)
+- Desktop Screen UI after successful login
+- Glassmorphism design
+
+This project is built using:
+HTML, CSS, and JavaScript.
+
+---
+
+## 📌 Project Features
+
+- ✅ Register new user with username and password
+- ✅ Login with saved credentials
+- ✅ OTP verification system for security
+- ✅ Desktop screen after successful authentication
+- ✅ Clock display in taskbar
+- ✅ Glassmorphism UI design
+- ✅ Responsive layout
+- ✅ Logout functionality
+
+---
+
+## 🛠 Technologies Used
+
+- HTML5 → Structure of the webpage  
+- CSS3 → Styling and glassmorphism UI  
+- JavaScript → Logic for login, register, OTP, and screen switching  
+- EmailJS → For OTP sending (email service)  
+
+---
+
+## 📂 Project Files Structure
+
