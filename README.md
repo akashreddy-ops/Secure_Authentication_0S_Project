@@ -37,3 +37,10 @@ HTML, CSS, and JavaScript.
 
 ## 📂 Project Files Structure
 
+/project-folder
+│
+├── index.html # Main HTML file
+├── style.css # Styling file
+├── script.js # JavaScript logic
+├── wallpaper.png # Background image
+└── README.md # Project documentation
