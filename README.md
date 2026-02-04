@@ -44,3 +44,15 @@ HTML, CSS, and JavaScript.
 ├── script.js # JavaScript logic
 ├── wallpaper.png # Background image
 └── README.md # Project documentation
+
+
+---
+
+## 🧠 Working Explanation (Step by Step)
+
+### 1️⃣ index.html (Structure)
+
+```html
+<!DOCTYPE html>
+<html>
+
