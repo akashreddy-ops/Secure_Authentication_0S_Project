@@ -56,3 +56,26 @@ HTML, CSS, and JavaScript.
 <!DOCTYPE html>
 <html>
 
+```
+
+→ Defines the HTML document.
+<link rel="stylesheet" href="style.css">
+
+→ Connects the CSS file for design.
+<script src="script.js"></script>
+
+2️⃣ Login Screen
+<div id="login-screen" class="glass-panel">
+
+→ Creates login UI panel.
+<input type="text" id="username">
+<input type="password" id="password">
+
+→ Takes username and password from user.
+<button onclick="handleLogin()">Login</button>
+
+→ Calls JavaScript function to verify login.
+
+3️⃣ Register Screen
+→ Connects JavaScript logic.
+
