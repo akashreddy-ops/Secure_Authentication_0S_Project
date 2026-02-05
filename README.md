@@ -62,17 +62,25 @@ HTML, CSS, and JavaScript.
 <link rel="stylesheet" href="style.css">
 
 → Connects the CSS file for design.
+```html
 <script src="script.js"></script>
+```
 
 2️⃣ Login Screen
+```html
 <div id="login-screen" class="glass-panel">
+```
 
 → Creates login UI panel.
+```html
 <input type="text" id="username">
 <input type="password" id="password">
+```
 
 → Takes username and password from user.
+```html
 <button onclick="handleLogin()">Login</button>
+```
 
 → Calls JavaScript function to verify login.
 
