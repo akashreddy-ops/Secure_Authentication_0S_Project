@@ -86,4 +86,20 @@ HTML, CSS, and JavaScript.
 
 3️⃣ Register Screen
 → Connects JavaScript logic.
+```html
+<div id="register-screen">
+```
+
+→ Screen for creating new account.
+```html
+<input id="reg-username">
+<input id="reg-password">
+```
+
+→ Stores new username and password.
+```html
+<button onclick="handleRegister()">Create Account</button>
+```
+
+→ Saves user data.
 
