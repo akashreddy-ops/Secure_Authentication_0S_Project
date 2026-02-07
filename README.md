@@ -103,3 +103,37 @@ HTML, CSS, and JavaScript.
 
 → Saves user data.
 
+4️⃣ OTP Screen
+```html
+<div id="otp-screen">
+```
+
+→ Security verification screen.
+```html
+<input id="otp-input" maxlength="6">
+```
+
+→ User enters 6-digit OTP.
+```html
+<button onclick="handleOTP()">Verify Access</button>
+```
+
+→ Confirms OTP.
+
+5️⃣ Desktop Screen
+```html
+<div id="desktop-screen">
+```
+→ Shows desktop after successful login.
+
+Contains:
+
+- Taskbar
+
+- Clock
+
+- Desktop icons
+
+- Logout button
+
+
