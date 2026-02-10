@@ -150,6 +150,7 @@ Glassmorphism Panel
 → Creates glass effect UI.
 
 Background
+
 ```html
 .background-container {
   background: url('wallpaper.png');
@@ -158,13 +159,16 @@ Background
 → Adds wallpaper image.
 
 Buttons
+
 ```html
 button:hover {
   background: rgba(255,255,255,0.3);
 }
 ```
 → Hover animation effect.
+
 Desktop Taskbar
+
 ```html
 .taskbar {
   position: absolute;
