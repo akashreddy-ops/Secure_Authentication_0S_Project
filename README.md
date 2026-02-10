@@ -137,3 +137,41 @@ Contains:
 - Logout button
 
 
+🎨 style.css (Design Explanation)
+Glassmorphism Panel
+
+```html
+.glass-panel {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 16px;
+}
+```
+→ Creates glass effect UI.
+
+Background
+```html
+.background-container {
+  background: url('wallpaper.png');
+}
+```
+→ Adds wallpaper image.
+
+Buttons
+```html
+button:hover {
+  background: rgba(255,255,255,0.3);
+}
+```
+→ Hover animation effect.
+Desktop Taskbar
+```html
+.taskbar {
+  position: absolute;
+  bottom: 0;
+}
+```
+→ Taskbar fixed at bottom like OS.
+
+⚙️ script.js (Logic Explanation)
+
