@@ -179,3 +179,45 @@ Desktop Taskbar
 
 ⚙️ script.js (Logic Explanation)
 
+Register Function
+
+```html
+function handleRegister() {
+```
+
+→ Saves username and password.
+Login Function
+```html
+function handleLogin() {
+```
+
+→ Checks entered credentials with saved data.
+
+OTP Generator
+```html
+function generateOTP() {
+```
+
+→ Creates random 6-digit OTP.
+
+OTP Verification
+```html
+function handleOTP() {
+```
+
+→ Verifies OTP entered by user.
+
+Screen Switching
+```html
+showLogin()
+showRegister()
+```
+
+→ Switches between login & register screens.
+
+Clock Function
+```html
+setInterval(updateClock, 1000);
+```
+→ Updates time every second.
+
