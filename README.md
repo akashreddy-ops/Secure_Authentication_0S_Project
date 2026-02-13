@@ -221,3 +221,17 @@ setInterval(updateClock, 1000);
 ```
 → Updates time every second.
 
+
+🚀 How to Run Project
+
+1. Download or clone the repository
+
+2. Open index.html in browser
+
+3. Register new user
+
+4. Login with credentials
+
+5. Enter OTP
+
+6. Access desktop screen
