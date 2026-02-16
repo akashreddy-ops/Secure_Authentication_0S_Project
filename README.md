@@ -235,3 +235,5 @@ setInterval(updateClock, 1000);
 5. Enter OTP
 
 6. Access desktop screen
+
+📸 Screenshots
