@@ -177,7 +177,7 @@ Desktop Taskbar
 ```
 → Taskbar fixed at bottom like OS.
 
-⚙️ script.js (Logic Explanation)
+# ⚙️ script.js (Logic Explanation)
 
 Register Function
 
@@ -222,7 +222,7 @@ setInterval(updateClock, 1000);
 → Updates time every second.
 
 
-🚀 How to Run Project
+# 🚀 How to Run Project
 
 1. Download or clone the repository
 
@@ -236,4 +236,12 @@ setInterval(updateClock, 1000);
 
 6. Access desktop screen
 
-📸 Screenshots
+# 📸 Screenshots
+
+<img width="1919" height="1079" alt="Screenshot 2026-02-17 154726" src="https://github.com/user-attachments/assets/85ceb8e7-7edb-4a1e-a3a4-c569b75121a9" />
+<img width="1919" height="789" alt="Screenshot 2026-02-17 154739" src="https://github.com/user-attachments/assets/febb4a4f-9243-4002-aa7f-38c116fcc3af" />
+<img width="1918" height="985" alt="Screenshot 2026-02-17 154838" src="https://github.com/user-attachments/assets/d0851803-e966-41f7-bfdb-3078f0c81c9c" />
+<img width="1919" height="983" alt="Screenshot 2026-02-17 154819" src="https://github.com/user-attachments/assets/21810e64-1013-40b1-ab12-20235b7d6ba1" />
+
+
+
