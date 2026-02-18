@@ -243,7 +243,7 @@ setInterval(updateClock, 1000);
 <img width="1918" height="985" alt="Screenshot 2026-02-17 154838" src="https://github.com/user-attachments/assets/d0851803-e966-41f7-bfdb-3078f0c81c9c" />
 <img width="1919" height="983" alt="Screenshot 2026-02-17 154819" src="https://github.com/user-attachments/assets/21810e64-1013-40b1-ab12-20235b7d6ba1" />
 
-🔮 Future Improvements
+# 🔮 Future Improvements
 
 - Database connection
 
