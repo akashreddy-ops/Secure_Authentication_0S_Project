@@ -258,4 +258,10 @@ setInterval(updateClock, 1000);
 - Mobile optimization
 
 
+# 👨‍💻 Author
+
+- Akash Reddy
+- B.Tech CSE Student
+- First Year Project
+- Passionate about Web Development & UI Design
 
