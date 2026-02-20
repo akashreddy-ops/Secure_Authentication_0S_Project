@@ -265,3 +265,15 @@ setInterval(updateClock, 1000);
 - First Year Project
 - Passionate about Web Development & UI Design
 
+
+# ⭐ Acknowledgement
+
+This project is created for learning:
+
+- Frontend Development
+
+- Authentication concept
+
+- JavaScript logic
+
+- UI/UX design
