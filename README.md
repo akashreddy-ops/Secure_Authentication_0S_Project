@@ -277,3 +277,8 @@ This project is created for learning:
 - JavaScript logic
 
 - UI/UX design
+
+
+📜 License
+
+This project is open-source and free to use for learning purposes.
